@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Caveat:wght@700&family=Montserrat:wght@500&family=Roboto&family=The+Nautigal:wght@700&display=swap');
+
+@media screen and (min-width: 900px) {
+    .stack-grid {
+        margin: 20px 30px !important;
+    }
+}
+
+.about-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 30px;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Allura' !important;
+}
+
+.pic {
+    pointer-events: none;
+}

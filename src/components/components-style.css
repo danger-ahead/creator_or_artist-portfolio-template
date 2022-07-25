@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Caveat:wght@700&family=Montserrat:wght@500&family=Roboto&family=The+Nautigal:wght@700&display=swap');
+
+.header-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 5px;
+}
+
+.header-text {
+    margin-top: 2vh;
+    font-size: 12rem;
+    word-break: natural;
+    text-align: center;
+    font-family: 'The Nautigal' !important;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 60%;
+    height: 20%;
+}
+
+.btn-nav-bar {
+    font-family: 'Caveat' !important;
+    border: none;
+    cursor: pointer;
+    padding: 5px 20px;
+    background-color: transparent;
+    font-size: 1rem;
+    font-family: 'Caveat' !important;
+    font-size: 2rem;
+    word-break: normal;
+}
+
+.underline {
+    border-bottom: 3px solid;
+}
+
+@media screen and (max-width: 900px) {
+    .header-text {
+        font-size: 5rem;
+        word-break: normal;
+    }
+}
